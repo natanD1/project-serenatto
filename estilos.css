@@ -60,3 +60,15 @@ input[type="checkbox"]:focus {
 footer{
   background-color: var(--marrom-claro);
 }
+
+[data-bs-theme="dark"]{
+  color: white;
+  .nav-link, .card-body, .offcanvas, 
+  .accordion-item, .btn{
+    --bs-nav-link-color: white;
+    --bs-card-color: white;
+    --bs-offcanvas-color: white;
+    --bs-accordion-color: white;
+    --bs-body-color: white;
+  }
+}
